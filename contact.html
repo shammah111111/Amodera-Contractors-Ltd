@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Amodera Contractors Ltd</title>
+    <meta name="description" content="Contact Amodera Contractors Ltd for quotations, consultations and project enquiries in Uganda." />
+    <link rel="canonical" href="https://www.amoderacontractors.com/contact.html" />
+    <meta property="og:title" content="Contact Amodera Contractors Ltd" />
+    <meta property="og:description" content="Reach out for a quote, a consultation, or a quick question about our construction services." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Amodera Contractors Ltd home">
+          <img src="assets/images/amodera-logo.png" alt="Amodera Contractors Ltd" class="brand-logo" />
+          <span class="brand-text">
+            <strong>Amodera Contractors Ltd</strong>
+            <span class="tagline">
+              <span class="dark">BUILDING EXCELLENCE</span> &middot;
+              <span class="yellow">ENGINEERING THE FUTURE</span>
+            </span>
+          </span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          
+          <a href="contact.html" class="active">Contact</a>
+          <a class="btn btn-primary nav-cta" href="contact.html">Get a Free Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero compact-hero">
+        <div class="container">
+          <p class="eyebrow">Contact us</p>
+          <h1>Let&rsquo;s talk about your next project.</h1>
+          <p>Reach out for a quote, a consultation, or a quick question about our services.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2>Company contact</h2>
+            <ul class="contact-list">
+              <li><strong>Location:</strong> Mukono, Uganda</li>
+              <li><strong>Phone:</strong> <a href="tel:+256757601714">+256 757 601 714</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+256793075797">+256 793 075 797</a></li>
+              <li><strong>Email:</strong> <a href="mailto:amoderacontractorsltd@gmail.com">amoderacontractorsltd@gmail.com</a></li>
+              <li><strong>WhatsApp:</strong> <a href="https://wa.me/256757601714" target="_blank" rel="noopener">Message us directly</a></li>
+              <li><strong>Hours:</strong> Mon &ndash; Sat, 8:00am &ndash; 6:00pm</li>
+            </ul>
+            <p>We are happy to answer questions and help you understand the best next step for your project.</p>
+          </div>
+          <form class="contact-form" id="contact-form" action="/api/contact" method="POST" aria-describedby="contact-feedback">
+            <label for="name">
+              Name
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+            </label>
+            <label for="email">
+              Email
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="Your email" required />
+            </label>
+            <label for="phone">
+              Phone
+              <input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9+ ]{7,}" placeholder="Your phone" />
+            </label>
+            <label for="subject">
+              Subject
+              <input id="subject" name="subject" type="text" placeholder="Project enquiry" required />
+            </label>
+            <label for="message">
+              Message
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+            </label>
+            <small id="contact-feedback" class="contact-feedback" aria-live="polite"></small>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Amodera Contractors Ltd</h3>
+          <p>Delivering strong, sustainable and professional building solutions for Uganda and beyond.</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Mukono, Uganda</p>
+          <p><a href="tel:+256757601714">+256 757 601 714</a></p>
+          <p><a href="tel:+256793075797">+256 793 075 797</a></p>
+          <p><a href="mailto:amoderacontractorsltd@gmail.com">amoderacontractorsltd@gmail.com</a></p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="services.html">Our Services</a></p>
+          <p><a href="contact.html">Get a Quote</a></p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Amodera Contractors Ltd. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a class="whatsapp-fab" href="https://wa.me/256757601714" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+      <svg viewBox="0 0 32 32"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.625.85 5.061 2.29 7.033L4.8 28.2l6.34-1.66A11.93 11.93 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16.001 3zm6.977 17.09c-.29.82-1.44 1.51-2.36 1.7-.63.13-1.45.24-4.21-.9-3.53-1.46-5.8-5.02-5.98-5.26-.17-.24-1.43-1.9-1.43-3.62 0-1.72.9-2.56 1.22-2.91.29-.32.63-.4.84-.4.21 0 .42.002.6.01.19.008.45-.07.7.53.29.68.98 2.37 1.06 2.54.09.17.14.37.03.59-.11.22-.17.37-.34.57-.17.2-.36.44-.51.6-.17.17-.35.36-.15.71.2.35.9 1.47 1.93 2.38 1.33 1.18 2.44 1.55 2.8 1.72.29.14.46.12.63-.07.17-.19.72-.83.91-1.11.19-.29.38-.24.63-.14.25.1 1.61.76 1.89.9.28.14.46.21.53.32.07.11.07.66-.22 1.29z"/></svg>
+      <span class="fab-label">Chat on WhatsApp</span>
+    </a>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
